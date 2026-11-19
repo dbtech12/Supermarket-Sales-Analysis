@@ -77,7 +77,7 @@ Page 2: Product Performance
 
 Power BI, Power Query, DAX, Excel
 
-## Files
+## My Files
 
 - [sells performaces file.pbix](sells%20performaces%20file.pbix): the Power BI report
 - [sells power bi.xlsx](sells%20power%20bi.xlsx): the dataset
