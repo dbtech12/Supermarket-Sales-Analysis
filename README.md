@@ -1,6 +1,6 @@
 # Supermarket Sales Analysis (Power BI)
 
-A two-page Power BI report on supermarket sales across three branches in Nigeria: Sales Performance (the big picture) and Product Performance (which product lines sell best).
+A two-page Power BI report on supermarket sales across three branches in Nigeria: **Sales Performance** (the big picture) and **Product Performance** (which product lines sell best).
 
 ![Sales Performance Dashboard](Screenshot%202026-10-13%20033043.png)
 
@@ -12,22 +12,22 @@ Where do sales come from (city, branch, payment method, customer group, month), 
 
 ## The data
 
-- A practice dataset of 227 invoices and 17 columns (`sells power bi.xlsx`).
-- Period covered: 1 January to 30 March 2019.
+- A practice dataset of **227 invoices** and 17 columns (`sells power bi.xlsx`).
+- Period covered: **1 January to 30 March 2019**.
 - Fields include branch, city, customer type, gender, product line, unit price, quantity, tax, total, date, payment method and rating.
 - There are no missing values and no duplicate invoice IDs.
-- The Excel sheet ends with a summary row called “Total”. I removed it so it is not counted as a sale (it would double every total).
+- The Excel sheet ends with a summary row called "Total". I removed it so it is not counted as a sale (it would double every total).
 - Each city has exactly one branch (Lagos = Lekki, Ibadan = Bodija, Abuja = Central Area), so city and branch show the same numbers.
 - Sales are spread very evenly across groups, which suggests the data is simulated. This project is about dashboard design and analysis skills, not real business conclusions.
 
 ## What I built
 
-Page 1: Sales Performance
+**Page 1: Sales Performance**
 - KPI cards: Total Sales, Gross Income, Quantity Sold, Total Tax, Average Rating, Total COGS
 - Total Sales by City, Branch, Payment method, Gender, Month and Customer type
 - Gross Income by Product line
 
-Page 2: Product Performance
+**Page 2: Product Performance**
 - Total Sales, Gross Income and Quantity Sold by Product line
 - Slicers: City, Branch, Product line, Gender, Payment and Month
 - Business insights, key findings and recommendations
@@ -35,7 +35,7 @@ Page 2: Product Performance
 ## Key numbers
 
 | Measure | Value |
-|—|—|
+|---|---|
 | Total sales | ₦159.55K |
 | Gross income | ₦7.60K |
 | Gross margin | 4.76% |
@@ -46,7 +46,7 @@ Page 2: Product Performance
 ## My Findings
 
 | Group | Result |
-|—|—|
+|---|---|
 | Top city / branch | Lagos (Lekki branch): ₦58.09K, 36.4% of total sales |
 | Next | Ibadan (Bodija) ₦52.84K, then Abuja (Central Area) ₦48.62K |
 | Top payment method | Cash ₦54.65K, then Credit card ₦53.04K, Ewallet ₦51.87K |
@@ -68,7 +68,7 @@ Page 2: Product Performance
 
 ## How I built it
 
-1. Loaded sells power bi.xlsx into Power BI and cleaned the data in Power Query (removed the summary “Total” row, set data types).
+1. Loaded `sells power bi.xlsx` into Power BI and cleaned the data in Power Query (removed the summary "Total" row, set data types).
 2. Built the KPI cards and charts.
 3. Added slicers so the report can be filtered by city, branch, product line, gender, payment method and month.
 4. Wrote the insights and recommendations from the verified figures.
@@ -77,7 +77,7 @@ Page 2: Product Performance
 
 Power BI, Power Query, DAX, Excel
 
-## My Files
+## Files
 
 - [sells performaces file.pbix](sells%20performaces%20file.pbix): the Power BI report
 - [sells power bi.xlsx](sells%20power%20bi.xlsx): the dataset
